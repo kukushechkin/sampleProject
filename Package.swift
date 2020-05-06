@@ -10,14 +10,14 @@ let package = Package(
             targets: ["someProject"]),
     ],
     dependencies: [
-        .package(url: "file:///Users/kukuvl/Projects/Personal/monorepoSandbox/someMonorepo", .branch("master")),
+        .package(url: "https://github.com/kukushechkin/sampleMonorepo", .branch("master")),
     ],
     targets: [
         .target(
             name: "someProject",
             dependencies: [
-                .product(name: "someComponent", package: "someMonorepo"),
-                .product(name: "anotherComponent", package: "someMonorepo")]),
+                .product(name: "someComponent", package: "sampleMonorepo"),
+                .product(name: "anotherComponent", package: "sampleMonorepo")]),
         .testTarget(
             name: "someProjectTests",
             dependencies: ["someProject"]),
