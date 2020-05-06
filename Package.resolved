@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "someMonorepo",
+        "repositoryURL": "file:///Users/kukuvl/Projects/Personal/monorepoSandbox/someMonorepo",
+        "state": {
+          "branch": "master",
+          "revision": "8f7b13467474c48ddfced6532307796bea3f7dc3",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
